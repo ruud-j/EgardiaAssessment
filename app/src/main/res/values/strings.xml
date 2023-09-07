@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Egardia Assessment</string>
+    <string name="car_year">Construction year: %1$s</string>
+</resources>
