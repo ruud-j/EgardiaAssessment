@@ -33,7 +33,9 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.egardia.assessment.design.Toolbar
 import com.egardia.assessment.viewmodel.MainViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     private val viewModel: MainViewModel by viewModels()
 
